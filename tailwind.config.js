@@ -21,17 +21,11 @@ export default {
       sm: ['14px', '1.25em'],
       base: ['16px', '1.25em'],
       lg: ['20px', '1.25em'],
-      xl: ['24px', '1.25em'],
-      '2xl': ['24px', '1.25em'],
-      '3xl': ['30px', '1.25em'],
-      header: ['36px', '1.25em'],
+      header: ['68px', '1em'],
     },
     extend: {
-      spacing: {
-        '8xl': '96rem',
-        '9xl': '128rem',
-      },
       borderRadius: {
+        '2xl': '1rem',
         '4xl': '2rem',
       }
     }
