@@ -7,7 +7,7 @@ const Hero = () => {
         <h1 className="font-bold text-header tracking-wide">Explore the world of plants</h1>
         <p className="text-lg">Discover the Beauty and Diversity of Plants: Explore our Website
         </p>
-        <button className="bg-primaryGreen text-primaryPink rounded-full w-fit py-2 px-6">Explore</button>
+        <button className="bg-primaryGreen text-primaryPink w-fit py-2 px-6">Explore</button>
       </div>
       <div className="flex-none">
         <img className="h-[50rem] w-full object-cover" src={baclgroundImage} alt="Plant image" />
