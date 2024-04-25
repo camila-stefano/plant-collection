@@ -4,7 +4,6 @@ const token = import.meta.env.VITE_PERENUAL_TOKEN;
 
 const usePlants = () => {
   const [data, setData] = useState(null);
-  const [images, setImages] = useState([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -41,16 +40,14 @@ const usePlants = () => {
         } */
 
       setData(resp.data);
-      setImages(resp.images);
       setLoading(false);
     };
 
     getData();
   }, []);
 
-  console.log(data)
 
-  return { data, images, loading };
+  return { data, loading };
 };
 
 export default usePlants;
